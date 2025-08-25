@@ -251,6 +251,7 @@
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Models\Asignacion.vb" />
     <Compile Include="Models\Comentario.vb" />
     <Compile Include="Models\Entrega.vb" />
     <Compile Include="Models\Proyecto.vb" />
