@@ -11,16 +11,52 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Asignacion_Curso
+Partial Public Class Asignacion_Proyectos
 
     '''<summary>
-    '''Control IDAsignacion.
+    '''Control LblMensaje.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents IDAsignacion As Global.System.Web.UI.WebControls.HiddenField
+    Protected WithEvents LblMensaje As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control TxtTitulo.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents TxtTitulo As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control TxtDescripcion.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents TxtDescripcion As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control TxtFechaInicio.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents TxtFechaInicio As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control TxtFechaFin.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents TxtFechaFin As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control ddlProfesores.
@@ -41,49 +77,31 @@ Partial Public Class Asignacion_Curso
     Protected WithEvents ddlCursos As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control ddlTurnos.
+    '''Control IDProyecto.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlTurnos As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents IDProyecto As Global.System.Web.UI.WebControls.HiddenField
 
     '''<summary>
-    '''Control rfvTurno.
+    '''Control btnGuardarProyecto.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents rfvTurno As Global.System.Web.UI.WebControls.RequiredFieldValidator
+    Protected WithEvents btnGuardarProyecto As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Control btnAsignar.
+    '''Control GridView1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnAsignar As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Control LblMensaje.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents LblMensaje As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control grvAsignacion.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents grvAsignacion As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
     '''Control SqlDataSource1.
