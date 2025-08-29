@@ -47,6 +47,11 @@ Public Class Registro
             .Pass = password,
             .RolId = rol
         }
+        ScriptManager.RegisterStartupScript(
+                Me, Me.GetType(),
+                "Prueba",
+                "Swal.fire('Error al registrar el usuario. Inténtalo de nuevo.');",
+                True)
 
         If RegistrarUsuario(Usuario) Then
             ' Redirigir al login o a la página de inicio

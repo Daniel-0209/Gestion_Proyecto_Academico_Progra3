@@ -41,7 +41,10 @@
     <asp:GridView ID="grvAsignacion" runat="server"
         OnSelectedIndexChanged="grvAsignacion_SelectedIndexChanged"
         OnRowDeleting="grvAsignacion_RowDeleting"
-        DataSourceID="SqlDataSource1" AutoGenerateColumns="False" DataKeyNames="IdAsignacion">
+        DataSourceID="SqlDataSource1" AutoGenerateColumns="False" DataKeyNames="IdAsignacion"  CssClass="table table-hover"
+        HeaderStyle-CssClass="table-header" 
+        RowStyle-CssClass="table-row" 
+        AlternatingRowStyle-CssClass="table-alt-row">
         <Columns>
             <asp:CommandField ShowSelectButton="true" />
             <asp:BoundField DataField="IdAsignacion" HeaderText="IdAsignacion" InsertVisible="False" ReadOnly="True" SortExpression="IdAsignacion" />

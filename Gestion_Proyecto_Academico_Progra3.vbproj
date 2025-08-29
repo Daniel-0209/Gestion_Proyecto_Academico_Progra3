@@ -126,6 +126,9 @@
   <ItemGroup>
     <Content Include="Asignacion_Curso.aspx" />
     <Content Include="Asignacion_Proyectos.aspx" />
+    <Content Include="Comentarios.aspx" />
+    <Content Include="ComentariosEstudiantes.aspx" />
+    <Content Include="Cometarios_Profesor.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -145,9 +148,11 @@
     <Content Include="Content\Site.css" />
     <Content Include="Coordinador.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Entrega_Proyectos.aspx" />
     <Content Include="Estudiante.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="InfoCursos.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Profesor.aspx" />
     <Content Include="Registro.aspx" />
@@ -226,6 +231,27 @@
       <DependentUpon>Asignacion_Proyectos.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Comentarios.aspx.designer.vb">
+      <DependentUpon>Comentarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Comentarios.aspx.vb">
+      <DependentUpon>Comentarios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ComentariosEstudiantes.aspx.designer.vb">
+      <DependentUpon>ComentariosEstudiantes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ComentariosEstudiantes.aspx.vb">
+      <DependentUpon>ComentariosEstudiantes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cometarios_Profesor.aspx.designer.vb">
+      <DependentUpon>Cometarios_Profesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cometarios_Profesor.aspx.vb">
+      <DependentUpon>Cometarios_Profesor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Coordinador.aspx.designer.vb">
       <DependentUpon>Coordinador.aspx</DependentUpon>
     </Compile>
@@ -241,6 +267,13 @@
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Entrega_Proyectos.aspx.designer.vb">
+      <DependentUpon>Entrega_Proyectos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entrega_Proyectos.aspx.vb">
+      <DependentUpon>Entrega_Proyectos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Estudiante.aspx.designer.vb">
       <DependentUpon>Estudiante.aspx</DependentUpon>
     </Compile>
@@ -253,6 +286,13 @@
     </Compile>
     <Compile Include="Helpers\DatabaseHelper.vb" />
     <Compile Include="Helpers\Simple3Des.vb" />
+    <Compile Include="InfoCursos.aspx.designer.vb">
+      <DependentUpon>InfoCursos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InfoCursos.aspx.vb">
+      <DependentUpon>InfoCursos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Login.aspx.designer.vb">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>

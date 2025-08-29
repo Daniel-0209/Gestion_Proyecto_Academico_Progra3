@@ -65,6 +65,7 @@ Public Class Login
         If VerificarUsuario(usuario) Then
             ' Obtener el RoleId de la sesión y convertir a Integer
             Dim roleId As Integer = Convert.ToInt32(Session("IdRol"))
+            Session("Usuario") = usuario.Email
 
             ' Redirigir según el rol
             If roleId = 1 Then

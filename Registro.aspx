@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
        <div class="card shadow-lg p-4" style="max-width: 400px; width: 100%;">
         <div class="card-body">
-            <h2 class="h4 mb-3 text-center">Create an Account</h2>
+            <h2 class="h4 mb-3 text-center">Crear Usuario</h2>
 
             <div class="form-floating">
                 <asp:TextBox ID="txtNombre" runat="server" CssClass="form-control" TextMode="SingleLine" placeholder="Name"></asp:TextBox>

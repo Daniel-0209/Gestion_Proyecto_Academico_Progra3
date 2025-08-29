@@ -11,122 +11,122 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Asignacion_Proyectos
+Partial Public Class Entrega_Proyectos
 
     '''<summary>
-    '''Control LblMensaje.
+    '''Control pnlEntrega.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents LblMensaje As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents pnlEntrega As Global.System.Web.UI.WebControls.Panel
 
     '''<summary>
-    '''Control TxtTitulo.
+    '''Control lblCurso.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtTitulo As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents lblCurso As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control valTitulo.
+    '''Control ddlCurso.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents valTitulo As Global.System.Web.UI.WebControls.RequiredFieldValidator
+    Protected WithEvents ddlCurso As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control TxtDescripcion.
+    '''Control lblProyecto.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtDescripcion As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents lblProyecto As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control ValDescripcion.
+    '''Control ddlProyecto.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ValDescripcion As Global.System.Web.UI.WebControls.RequiredFieldValidator
+    Protected WithEvents ddlProyecto As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control TxtFechaInicio.
+    '''Control lblNombreEstudiante.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtFechaInicio As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents lblNombreEstudiante As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control TxtFechaFin.
+    '''Control txtNombreEstudiante.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtFechaFin As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtNombreEstudiante As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control ddlProfesores.
+    '''Control valnom.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlProfesores As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents valnom As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
-    '''Control ddlCursos.
+    '''Control lblFecha.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlCursos As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents lblFecha As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control IDProyecto.
+    '''Control txtFecha.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents IDProyecto As Global.System.Web.UI.WebControls.HiddenField
+    Protected WithEvents txtFecha As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control btnGuardarProyecto.
+    '''Control lblArchivo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnGuardarProyecto As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents lblArchivo As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control grvProyectos.
+    '''Control fuArchivo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents grvProyectos As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents fuArchivo As Global.System.Web.UI.WebControls.FileUpload
 
     '''<summary>
-    '''Control SqlDataSource1.
+    '''Control btnEnviar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
+    Protected WithEvents btnEnviar As Global.System.Web.UI.WebControls.Button
 End Class

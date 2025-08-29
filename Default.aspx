@@ -2,41 +2,45 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <main>
-        <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="aspnetTitle">ASP.NET</h1>
-            <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-            <p><a href="http://www.asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
-        </section>
+    <main class="container mt-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold text-primary">Universidad Central</h1>
+            <p class="lead text-secondary">Formando profesionales con excelencia académica y compromiso social</p>
+        </div>
 
-        <div class="row">
-            <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-                <h2 id="gettingStartedTitle">Getting started</h2>
-                <p>
-                    ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-                A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-                </p>
+        <div class="row text-center">
+            <section class="col-md-4 mb-4">
+                <div class="card shadow-lg border-0 h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary">Carreras Universitarias</h3>
+                        <p class="card-text text-muted">
+                            Descubra la amplia oferta académica de la Universidad Central.
+                        </p>
+                        <a class="btn btn-primary" href="https://universidadcentral.co.cr/estudiantes-regulares/">Ingrese aquí &raquo;</a>
+                    </div>
+                </div>
             </section>
-            <section class="col-md-4" aria-labelledby="librariesTitle">
-                <h2 id="librariesTitle">Get more libraries</h2>
-                <p>
-                    NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-                </p>
+            <section class="col-md-4 mb-4">
+                <div class="card shadow-lg border-0 h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary">Reseña Histórica</h3>
+                        <p class="card-text text-muted">
+                            Conozca la trayectoria y los logros de nuestra institución.
+                        </p>
+                        <a class="btn btn-primary" href="https://universidadcentral.co.cr/estudiantes-regulares/">Ingrese aquí &raquo;</a>
+                    </div>
+                </div>
             </section>
-            <section class="col-md-4" aria-labelledby="hostingTitle">
-                <h2 id="hostingTitle">Web Hosting</h2>
-                <p>
-                    You can easily find a web hosting company that offers the right mix of features and price for your applications.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-                </p>
+            <section class="col-md-4 mb-4">
+                <div class="card shadow-lg border-0 h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary">Inversión</h3>
+                        <p class="card-text text-muted">
+                            Conozca los costos, beneficios y servicios que ofrecemos.
+                        </p>
+                        <a class="btn btn-primary" href="https://universidadcentral.co.cr/estudiantes-regulares/">Ingrese aquí &raquo;</a>
+                    </div>
+                </div>
             </section>
         </div>
     </main>

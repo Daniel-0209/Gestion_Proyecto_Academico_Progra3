@@ -12,13 +12,4 @@ Option Explicit On
 
 
 Partial Public Class Coordinador
-
-    '''<summary>
-    '''Control MenuCoordinador.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents MenuCoordinador As Global.System.Web.UI.WebControls.Menu
 End Class
